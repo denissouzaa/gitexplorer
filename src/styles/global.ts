@@ -15,7 +15,6 @@ export default createGlobalStyle`
         background-repeat: no-repeat;
         background-position: 70% top;
         background-color: #F0F0F5;
-        height: 100vh;
     }
 
     body, input, button {
@@ -29,6 +28,13 @@ export default createGlobalStyle`
         padding-bottom: 20px;
         padding-left: 10px;
         padding-right: 10px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        
+        height: 100vh;
     }
 
     button {

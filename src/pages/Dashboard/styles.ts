@@ -84,13 +84,3 @@ export const Repository = styled.div`
         color: #CBCBD6;
     }
 `
-
-export const Footer = styled.footer`
-    bottom: 0px;
-    position: absolute;
-
-    p {
-        color: #343a40;
-    }
-    
-` 

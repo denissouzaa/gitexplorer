@@ -10,6 +10,8 @@ import logoImg from '../../assets/logo.svg';
 //services
 import api from '../../services/api';
 
+import CFooter from '../../components/footer';
+
 interface RepositoryParams {
     repository: string;
 }
@@ -51,7 +53,8 @@ const Explorer: React.FC = () => {
 
 
     return (
-        <>
+        <> 
+            <div>
             <Header>
                 <img src={logoImg} alt="GitHub Explorer" width="215px" />
                 <Link to="../">
@@ -95,10 +98,12 @@ const Explorer: React.FC = () => {
                 ))}
                 
             </RepositoryLista>
+            </div>
+            <div>
+                <CFooter />
+            </div>
 
-            <Footer>
-                <p>Desenvolvido por Denis Souza - <a href="https://www.linkedin.com/in/denis-souzaa/" target="_blank" rel="noreferrer">LinkedIn</a>.</p>
-            </Footer>
+        
 
         </>
     )

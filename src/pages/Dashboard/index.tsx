@@ -4,12 +4,14 @@ import React, { useState, FormEvent, useEffect } from 'react';
 import { IoChevronForwardOutline } from 'react-icons/io5';
 import { Link } from 'react-router-dom';
 //styles
-import { Title, Form, Repository, Error, Footer } from './styles';
+import { Title, Form, Repository, Error} from './styles';
 //images
 import logoImg from '../../assets/logo.svg';
 
 //services
 import api from '../../services/api';
+
+import CFooter from '../../components/footer/';
 
 interface Repository {
     full_name: string,
@@ -61,7 +63,7 @@ const Dashboard: React.FC = () => {
 
     return (
         <>
-            <img src={logoImg} alt="GitHub Explorer" width="215px" />
+            <div><img src={logoImg} alt="GitHub Explorer" width="215px" />
             <Title>Explore repositórios no Github.</Title>
 
             <Form onSubmit={handleAddRepository}>
@@ -80,10 +82,12 @@ const Dashboard: React.FC = () => {
                         <IoChevronForwardOutline size={20} />
                     </Link>
                 ))}
-            </Repository>
-            <Footer>
-                <p>Desenvolvido por Denis Souza - <a href="https://www.linkedin.com/in/denis-souzaa/" target="_blank" rel="noreferrer">LinkedIn</a>.</p>
-            </Footer>
+            </Repository></div>
+            <div>
+                <CFooter />
+            </div>
+            
+        
         </>
     )
 }
