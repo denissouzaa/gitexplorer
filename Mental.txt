@@ -1,0 +1,32 @@
+Install react router dom
+Criar pasta pages com cada pagina
+Escrever componentes com 'const' pois fica mais simples a tipagem
+
+    Exemplo: const Dashboard: React.FC () => {
+
+    }
+
+Install types para tipagem
+-------------------
+
+Install styled components and types
+
+
+----------------------- API ----------------
+
+criar pasta services/api.ts
+
+
+
+-------------- localstore--------------
+
+salvar no localstore dados da api para nao perder ao dar reloaded
+
+------------- link ----------------------
+enviar dados para segundo pagina usando link do react router dom
+
+import link do react-router-dom 
+
+aplicar link
+
+na pagina do explorer ultilizar useRouteMatch do react-rounter-dom
