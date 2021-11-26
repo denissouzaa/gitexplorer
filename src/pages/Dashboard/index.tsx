@@ -64,7 +64,7 @@ const Dashboard: React.FC = () => {
     return (
         <>
             <div><img src={logoImg} alt="GitHub Explorer" width="215px" />
-            <Title>Explore repositórios no Github (teste).</Title>
+            <Title>Explore repositórios no Github</Title>
 
             <Form onSubmit={handleAddRepository}>
                 <input type="text" placeholder="Insira 'nome usuario/repositorio', exemplo: denissouzaa/gitexplorer" onChange={e => setBuscaRepo(e.target.value)} value={getBuscaRepo} />
