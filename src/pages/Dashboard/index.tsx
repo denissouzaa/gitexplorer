@@ -67,7 +67,7 @@ const Dashboard: React.FC = () => {
             <Title>Explore repositórios no Github.</Title>
 
             <Form onSubmit={handleAddRepository}>
-                <input type="text" placeholder="" onChange={e => setBuscaRepo(e.target.value)} value={getBuscaRepo} />
+                <input type="text" placeholder="Insira 'nome usuario/repositorio', exemplo: denissouzaa/gitexplorer" onChange={e => setBuscaRepo(e.target.value)} value={getBuscaRepo} />
                 <button type="submit">Pesquisar</button>
             </Form>
             <Error>{errorApi}</Error>
