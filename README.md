@@ -1,4 +1,6 @@
-# GitHub Explorer
+## GitHub Explorer
+
+## Introdução
 
 🔎 Explore repositórios no Github
 
