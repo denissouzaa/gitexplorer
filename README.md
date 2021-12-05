@@ -2,7 +2,7 @@
 
 ## Introdução
 
-🔎 Explore repositórios no Github
+🔎 Website para Explorar Repositórios no Github 
 
 ![Preview](https://i.imgur.com/V8w4PAG.png)
 
@@ -10,6 +10,7 @@
 
 * React  
 * Styled Components  
+* Axios
 * Typescript
 
 ## Executando Localmente
