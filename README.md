@@ -4,7 +4,8 @@
 
 Website desenvolvido para explorar repositórios no Github 
 
-<a href="https://github.com/denissouzaa/baixarvideos">Live Demo</a>
+<a href="https://denissouzaa.github.io/gitexplorer/">Live Demo</a>
+
 ![Preview](https://i.imgur.com/V8w4PAG.png)
 
 ## Tecnologias
