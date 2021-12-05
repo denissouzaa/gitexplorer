@@ -1,4 +1,4 @@
-## GitHub Explorer
+# GitHub Explorer
 
 ## Introdução
 
@@ -8,9 +8,9 @@
 
 ## Tecnologias
 
-React  
-Styled Components  
-Typescript
+* React  
+* Styled Components  
+* Typescript
 
 ## Executando Localmente
 
@@ -18,6 +18,3 @@ Typescript
 npm install
 npm start
 ```
-
-Runs the app in development mode.  
-Open http://localhost:3000 to view it in the browser.
