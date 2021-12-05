@@ -2,7 +2,7 @@
 
 ## Introdução
 
-🔎 Website para Explorar Repositórios no Github 
+Website para Explorar Repositórios no Github 
 
 ![Preview](https://i.imgur.com/V8w4PAG.png)
 
