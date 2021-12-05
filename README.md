@@ -4,7 +4,7 @@
 
 Website desenvolvido para explorar repositórios no Github 
 
-<a href="https://denissouzaa.github.io/gitexplorer/">Live Demo</a>
+<a target="_blank" href="https://denissouzaa.github.io/gitexplorer/">Live Demo</a>
 
 ![Preview](https://i.imgur.com/V8w4PAG.png)
 
